@@ -1,0 +1,97 @@
+@media (min-width:992px)
+{
+    .desktop
+    {
+        width:33%;
+        float:left;
+    }
+}
+@media (min-width:768px) and (max-width: 991px)
+{
+    .mobile
+    {
+        width:50%;
+        float:left;
+    }
+    .mobile2
+    {
+        width:100%;
+        float:left;
+    }
+}
+@media (max-width:767px)
+{
+    .small_devices
+    {
+        width:100%;
+        float:left;
+        
+    }
+}
+* {
+    margin:0px;
+}
+
+.box
+{
+
+    background-color: blue;
+    border: 10px solid black;
+    overflow:auto;
+    margin:50px;
+    height: 250px;
+    box-sizing: border-box;   
+    text-align: justify;
+}
+.text
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+    padding: 5px;
+    font-weight: 500;
+    clear:both;
+
+}
+.subtitle
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 140%;
+    color: chartreuse;
+    padding: 5px;
+    font-weight: 500;
+
+}
+.title 
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 180%;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#color1
+{
+    background-color: chocolate;
+}
+#color2
+{
+    background-color: darkgray;
+}
+#color3
+{
+    background-color: darkorange;
+}
+.subtitlebox
+{
+    float:right;
+    /*position:relative;
+    margin-left:50%;
+    width:50%;*/
+    
+    border:2px solid black;
+    /*margin-top: 0%;
+    height: 20 px;
+    
+    padding:2px;
+    box-sizing: content-box;*/
+}
